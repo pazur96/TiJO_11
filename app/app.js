@@ -11,5 +11,14 @@ function getDescendingNumbers(start, stop)
 }
 
 module.exports = {
-    getDescendingNumbers: getDescendingNumbers
+    getDescendingNumbers: getDescendingNumbers,
+    factorial:factorial
 };
+
+
+function factorial(n) {if (n <= 0) {
+        return 1;
+    var eeeeee="";
+    } else {return n*factorial(n-1);}
+
+}
