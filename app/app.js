@@ -1,4 +1,4 @@
-function getDescendingNumbers(start, stop)
+function getDescendingNumbers( stop)
 {
     if (typeof start !== 'number' || typeof stop !== 'number' || start <= stop) {
         return false;
@@ -7,8 +7,9 @@ function getDescendingNumbers(start, stop)
     for (var i = start - 1; i >= stop; i--) {
         result = result + ' ' + i;
     }
+    var eeeeee="";
     return result;
-}
+
 
 module.exports = {
     getDescendingNumbers: getDescendingNumbers,
@@ -18,7 +19,7 @@ module.exports = {
 
 function factorial(n) {if (n <= 0) {
         return 1;
-    var eeeeee="";
-    } else {return n*factorial(n-1);}
+
+    } else {return n*factorial;}
 
 }
