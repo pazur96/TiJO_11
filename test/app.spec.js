@@ -3,7 +3,7 @@
 var expect = require('chai').expect; var app = require('../app/app');
 
 describe('silnia', function (){it('should return strong', function ()    {
-    expect(app.silnia(4)).to.eql(123123);
+    expect(app.silnia(4)).to.eql(24);
 });
 
 describe('getDescendingNumbers', function (){

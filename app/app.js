@@ -7,9 +7,8 @@ function getDescendingNumbers(start, stop)
     var result = start;
     for (var i = start - 1; i >= stop; i--) {
         result = result + ' ' + i;
-        var eeeee;
-        var "ssfsddf";
-    }return ;
+
+    }return result;
 }
 
 module.exports = {
@@ -18,7 +17,8 @@ module.exports = {
 };
 
 
-function silnia(n) {wynik = 999;
+function silnia(n) {
+
     for (k = 1; k <= n; k--)
     {
         wynik *= k;
